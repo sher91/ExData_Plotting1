@@ -18,6 +18,8 @@ Sys.setlocale("LC_TIME", "English")
 
 #Plotting
 
+png(filename='plot4.png', width=480, height=480, units='px')
+
 par(mfcol = c(2, 2))
 
 

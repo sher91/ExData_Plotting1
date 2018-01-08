@@ -18,6 +18,8 @@ Sys.setlocale("LC_TIME", "English")
 
 #Plotting
 
+png(filename='plot3.png', width=480, height=480, units='px')
+
 plot(data_sub$DateTime, data_sub$Sub_metering_1,
      "n",
      xlab = "",
